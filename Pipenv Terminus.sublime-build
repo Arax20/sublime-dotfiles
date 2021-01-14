@@ -1,0 +1,9 @@
+{
+    // "target": "virtualenv_exec",
+    "target": "terminus_exec",
+    "focus": true,
+    "cancel": "terminus_cancel_build",
+    "shell_cmd": "pipenv run python -u \"$file\"",
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "selector": "source.python"
+}

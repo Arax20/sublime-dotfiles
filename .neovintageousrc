@@ -1,0 +1,6 @@
+" Type :help nv for help.
+noremap J 5j    
+noremap K 5k
+noremap H _
+noremap L g_
+noremap Q '

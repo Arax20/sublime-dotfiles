@@ -1,0 +1,8 @@
+{
+    "anaconda_linter_phantoms": false,
+    "pep8_ignore": [
+        "E501",
+        "E722",
+        "W503"
+    ]
+}

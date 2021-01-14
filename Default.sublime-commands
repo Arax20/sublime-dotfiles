@@ -1,0 +1,22 @@
+[
+   {
+    "caption": "Terminus: Open cmd in Tab",
+    "command": "terminus_open",
+    "args": {
+        "title": "cmd",
+        "cmd": "cmd.exe",
+        "cwd": "${file_path:${folder}}"
+    }
+},
+
+   {
+    "caption": "Terminus: Open wsl in Tab",
+    "command": "terminus_open",
+    "args": {
+        "title": "wsl",
+        "cmd": "wsl.exe",
+        "cwd": "${file_path:${folder}}"
+    }
+}
+
+]

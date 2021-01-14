@@ -1,0 +1,20 @@
+[
+    { 
+    	"keys": ["ctrl+alt+l"],
+    	"command": "anaconda_auto_format",
+    	"context": [{
+    		"key": "selector",
+    		"operator": "equal",
+    		"operand": "source.python"
+    	}]
+    },  
+    { 
+    	"keys": ["ctrl+alt+e"],
+    	"command": "anaconda_get_lines",
+    	"context": [{
+    		"key": "selector",
+    		"operator": "equal",
+    		"operand": "source.python"
+    	}]
+    }  
+]
