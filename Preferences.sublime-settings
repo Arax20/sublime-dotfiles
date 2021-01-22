@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	//"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"ignored_packages":
 	[
 		"Six",
@@ -25,5 +25,9 @@
 	"mini_diff": "auto",
 	"relative_line_numbers": true,
 	"translate_tabs_to_spaces": true,
-	"font_size": 10,
+	"show_tab_close_buttons": false,
+	"hide_new_tab_button": true,
+	"hide_tab_scrolling_buttons": true,
+	"auto_hide_menu": true,
+	//"font_size": 10,
 }
